@@ -50,7 +50,7 @@ public class ScoreBoard {
             case 2: {setScore(30*lettersCount+ getScore());break; }
             case 3: {break; }
             case 4: {setScore(5*lettersCount+ getScore());break; }
-            case 5: {setScore(getScore()*getScore());break; }
+            case 5: {setScore(getScore()*2);break; }
             case 6: {setScore(50*lettersCount+ getScore());break; }
             case 7: {setScore(0);break; }
             case 8: {break; }
